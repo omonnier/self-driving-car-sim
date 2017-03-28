@@ -32,9 +32,9 @@ public class MenuOptions : MonoBehaviour
     public void StartDrivingMode()
     {
         if (track == 0) {
-            SceneManager.LoadScene("LakeTrackTraining");
+            SceneManager.LoadScene("Grand8EmptyTraining");
         } else {
-            SceneManager.LoadScene("JungleTrackTraining");
+            SceneManager.LoadScene("Grand8Training");
         }
 
     }
@@ -42,9 +42,9 @@ public class MenuOptions : MonoBehaviour
     public void StartAutonomousMode()
     {
         if (track == 0) {
-            SceneManager.LoadScene("LakeTrackAutonomous");
+            SceneManager.LoadScene("Grand8EmptyAutonomous");
         } else {
-            SceneManager.LoadScene("JungleTrackAutonomous");
+            SceneManager.LoadScene("Grand8Autonomous");
         }
     }
 
